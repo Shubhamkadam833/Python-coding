@@ -1,6 +1,6 @@
 #Welcome to the tip calculator
 print("Welcome to the tip calculator")
-Bill = int(input("what was the total Bill?"))
+Bill = float(input("what was the total Bill?"))
 print(f"The bill is {Bill} Dollars")
 Tips = input("what percentage you would like to give 10, 12 or 15 ?")
 Tips1 = int(Tips)
